@@ -1,0 +1,39 @@
+	*ALSACE 
+	 departement =('67','68') 
+	
+	*BEAUJOLAIS;
+	 departement='69' et departement='71' et code commune in('074','084','090','108','150','258','362','372','385','481','487')) 
+		
+	*BORDELAIS;
+	departement='33' 
+	
+	*BOURGOGNE;
+	 departement in('21','89') ! (departement='71' et code commune not in('074','084','090','108','150','258','362','372','385','481','487')) 
+	
+	
+	*CHAMPAGNE;
+	 departement =('51','10') 
+
+	*CHARENTES;
+	departement =('16','17') 
+
+	*LANGUEDOC;
+	departement =('11','30','34') 
+	
+	*Pyrénes Orientales;
+	 departement='66' 
+	 
+	*PACA 83-84;
+	departement =('83','84') 
+	
+	*VAL DE LOIRE;
+	departement=('37','41','44','49')
+	
+	*BOUCHES DU RHONE;
+	departement='13' 
+	
+	*DORDOGNE;
+	 departement='24' 
+	 
+	*MIDI PYRENEES;
+	departement =('32','46','81') 
