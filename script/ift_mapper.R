@@ -36,6 +36,8 @@ ggfrance<-ggplot()+
   geom_polygon(data=bassin.df, aes(x=long,y=lat,group=group, fill=bassin))
 ggfrance
 
+ggsave("img/gg_bassins.png",ggfrance,width = 10,height = 9)
+
 #### DONNEES AGRESTE #####
 ift_total<-read.csv("data/agreste/ift_total.csv",header = T, sep=";",skip=1, dec = ",")
 sm_ift_total<-subset(ift_total, select = c(X, Médiane))
