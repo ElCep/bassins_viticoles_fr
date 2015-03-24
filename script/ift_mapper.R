@@ -33,7 +33,10 @@ bassin.df<-join(bassin.pts, bassins_shp@data, by="id")
 
 ggfrance<-ggplot()+
   geom_polygon(data=france.pts, aes(x=long,y=lat,group=group))+
-  geom_polygon(data=bassin.df, aes(x=long,y=lat,group=group, fill=bassin))
+  geom_polygon(data=bassin.df, aes(x=long,y=lat,group=group, fill=bassin))+
+  guides(fill=guide_legend(title="Bassins Viticoles"))+
+  annotate("text", label = "Sources: IGN geoflat & Agreste", x = 370000, y = 6050000, size = 5)+
+  annotate("text", label = "Réalisation : E. Delay", x = 295000, y = 6010000, size = 5)
 ggfrance
 
 ggsave("img/gg_bassins.png",ggfrance,width = 10,height = 9)
