@@ -3,7 +3,7 @@ N'ayant pas réussi à trouver les bassins viticoles utilisés par [l'agreste](h
 
 Les données SIG ont été construites grâce à une aimable réponse de l'agreste le 23 mars 2015, jointe au dossier, et aux données [Geofla](http://professionnels.ign.fr/geofla) proposés par l'IGN sous licence ouverte en V1. Ce qui permet de produire des cartes à partir des données d'enquête agreste comme celle-là. 
 
-![Indice de fréquance de traitement viticole par bassins](img/gg_age_surface_2012.png)
+![Indice de fréquance de traitement viticole par bassins](./img/gg_age_surface_2012.png)
 
 ## Les données ##
 ### Structuration des repertoires###
